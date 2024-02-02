@@ -19,7 +19,7 @@ const log = simpleNodeLogger.createSimpleLogger({
 });
 
 app.use(cors({
-  origin: '201.75.186.225'
+  origin: 'https://turtle-controller.onrender.com'
 }));
 app.use(express.json());
 app.use(express.static('dist'));

@@ -1,5 +1,5 @@
 -- github: https://github.com/exa-byte/CCTurtleRemoteController
-base_url = "http://localhost/"
+base_url = "https://turtle-controller.onrender.com/"
 
 -- lib
 function Split(s, delimiter)

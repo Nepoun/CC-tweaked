@@ -2,7 +2,7 @@ import { defineStore } from 'pinia'
 import { TurtleState, Block } from '../types/types';
 import { useWorldViewStore } from './useWorldView';
 
-const url = "201.75.186.225/"
+const url = "https://turtle-controller.onrender.com/"
 
 export const useWorldStore = defineStore('world', {
   state: () => ({
